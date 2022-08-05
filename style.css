@@ -115,7 +115,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 300px;
 }
 
 .quote-text {
