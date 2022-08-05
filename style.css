@@ -39,7 +39,8 @@ ul{
     align-items: center;
     background-color: #1f2937;
     height: 100vh;
-    color:#f9faf8
+    color:#f9faf8;
+    gap: 80px;
 }
 .container {
     width: 400px;
@@ -56,8 +57,9 @@ ul{
 }
 
 .hero-image {
-    width: auto;
-    height: 500px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 
 button {
