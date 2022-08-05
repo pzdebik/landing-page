@@ -60,4 +60,14 @@ ul{
     height: 500px;
 }
 
+.info {
+    display: flex;
+}
+
+.illustration {
+    height: 100px;
+    width: 100px;
+    border: 2px #1f2937 solid;
+    border-radius: 10px;
+}
 
