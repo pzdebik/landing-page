@@ -73,6 +73,7 @@ ul{
     justify-content: center;
     align-items: center;
     height: 50vh;
+    gap: 100px;
 }
 
 .info-container {
@@ -80,16 +81,38 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .illustration {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 2px #1f2937 solid;
     border-radius: 10px;
 }
 
 .info-container p {
     text-align: center;
+    width: 150px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+}
