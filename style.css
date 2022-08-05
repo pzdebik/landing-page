@@ -60,6 +60,17 @@ ul{
     height: 500px;
 }
 
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.hero-button {
+    border: none;
+}
+
 .info-title {
     text-align: center;
     padding: 30px;
@@ -115,4 +126,41 @@ ul{
 
 .author {
     align-self: flex-end;
+}
+
+.cta {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    width: 1000px;
+    height: auto;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+.cta-subtext {
+    font-weight: 300;
+}
+
+.cta-button {
+    border: 3px #e5e7eb solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
